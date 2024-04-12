@@ -1,7 +1,7 @@
 # M3_BSC4892
 Breast Cancer Recurrence Prediction
 
-Data: https://archive.ics.uci.edu/dataset/14/breast+cancer
+Data: https://archive.ics.uci.edu/dataset/451/breast+cancer+coimbra 
 
 XGBoost: Emily
 
@@ -11,4 +11,4 @@ Random forest: Michele
 
 
 Introduction:
-Our dataset is called Breast Cancer and it was donated to the UCI Machine Learning Repository on 7/10/1988. This data was obtained from the Oncology Institute in Ljubljana, Yugoslavia. With this dataset we aim to make a maachine learning model that can predict the recurrence of breast cancer from patient data. This dataset has patient data on age, menopause, tumor size, invaded nodes, node caps, degree of malignancy, breast, breast quadrent, and irradiation treatment. Three different models will be trained with this data and compared for their ability to predict recurrence events in these patients. The three selected models are XGBoost, Support Vector Machine (SVC), and Random Forest. The dataset showed there has been previous success using these models and hopefully we can replicate this through this project.
+Our dataset is called Breast Cancer Coimbra and it was donated to the UCI Machine Learning Repository on 3/5/2018. This data was obtained from the Oncology Institute in Ljubljana, Yugoslavia. With this dataset we aim to make maachine learning models that can predict the incidence of breast cancer from patient data. This dataset has patient data on age, BMI, glucose, insulin, HOMA, heptin, adiponectin, resistin, and MCP.1. We selected this dataset as the data was all quantitative. Three different models will be trained with this data and compared for their ability to predict breast cancer in these patients. The three selected models are XGBoost, Support Vector Machine (SVC), and Random Forest. 
